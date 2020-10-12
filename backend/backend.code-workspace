@@ -1,0 +1,17 @@
+{
+	"folders": [
+    {
+      "name": "✨ backend",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#ab307e",
+      "statusBar.border": "#ab307e",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#ca4499"
+    },
+    "peacock.color": "#832561"
+  }
+}
