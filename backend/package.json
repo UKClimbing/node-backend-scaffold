@@ -1,7 +1,7 @@
 {
-  "name": "-api-template-change-me-",
+  "name": "node-backend-scaffold",
   "version": "1.0.0",
-  "description": "-api-template-change-me-",
+  "description": "node-backend-scaffold",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
