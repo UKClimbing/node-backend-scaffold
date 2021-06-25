@@ -6,10 +6,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "start:watch": "tsc-watch --onSuccess \"node .\"",
     "clean": "rm -rf ./dist",
     "debug": "nodemon --inspect .",
-    "docker:build": "npm run clean; tsc; docker-compose up --build"
+    "start": "nodemon src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +19,8 @@
     "fastify-cors": "^4.1.0",
     "node-fetch": "^2.6.1",
     "pg": "^8.4.1",
-    "sequelize": "^5.22.3",
+    "mustache": "^4.2.0",
+    "nodemon": "^2.0.7",
     "uuid": "^8.3.0",
     "ws": "^7.3.1"
   },
@@ -28,8 +28,6 @@
     "@types/bluebird": "^3.5.32",
     "@types/node": "^14.11.5",
     "debug": "~2.6.3",
-    "reflect-metadata": "^0.1.13",
-    "sequelize-typescript": "^1.1.0",
     "@types/node-fetch": "^2.5.7",
     "@types/validator": "^13.1.0",
     "tsc-watch": "^4.2.9",
